@@ -1,4 +1,4 @@
-<%@ Page CodeFile="Test.aspx.cs" Language="C#" AutoEventWireup="true" CodeBehind="Test.aspx.cs" Inherits="FubuExample.Web.Endpoints.Entity.TestView" %>
+<%@ Page Language="C#" AutoEventWireup="true" Inherits="FubuExample.Web.Endpoints.Entity.TestView" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -12,5 +12,7 @@
 </head>
 <body>
 <h1>This is a test page</h1>
+
+For test entity with title <%=Model.Title%> and Id <%=Model.Id%>
 </body>
 </html>
