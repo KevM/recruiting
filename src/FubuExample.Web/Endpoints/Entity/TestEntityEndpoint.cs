@@ -1,4 +1,5 @@
 using FubuMVC.Core;
+using FubuMVC.Core.View;
 
 namespace FubuExample.Web.Endpoints.Entity
 {
@@ -20,5 +21,9 @@ namespace FubuExample.Web.Endpoints.Entity
 	{
 		public string Id { get; set; }
 		public string Title { get; set; }
+	}
+
+	public class TestView : FubuPage<TestResult>
+	{
 	}
 }

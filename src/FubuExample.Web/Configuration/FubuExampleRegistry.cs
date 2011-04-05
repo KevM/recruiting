@@ -17,6 +17,8 @@ namespace FubuExample.Web.Configuration
 
         	Routes
 				.UrlPolicy<EndpointUrlPolicy>();
+
+        	Views.TryToAttachWithDefaultConventions();
         }
     }
 }
